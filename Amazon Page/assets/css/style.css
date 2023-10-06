@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+.margin-class {
+  margin-top: 1.8rem;
+  margin-bottom: 0;
+}
+/* header */
+
+.header-logo {
+  text-align: left;
+  width: 100%;
+  background-color: #222f3f;
+}
+
+.header-logo img {
+  padding: 0.5rem;
+  width: 8%;
+  margin-left: 1rem;
+}
+
+#links-header {
+  background-color: #364759;
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  margin-left: 0.7rem;
+}
+header li {
+  float: left;
+  padding: 1rem;
+  font-size: 0.8rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+header li > a {
+  text-decoration: none;
+  color: white;
+}
+
+/* main */
+
+main {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+main > div {
+  width: 98%;
+  margin-inline: auto;
+  padding: 0.5rem;
+}
+.gift-cards {
+  background-color: #f56600;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: white;
+}
+#holiday-gifts {
+  background-image: url("../images/bg-image.png");
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  margin-inline: auto;
+  background-position: center;
+}
+#holiday-gifts h1 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1.5rem;
+}
+
+#holiday-gifts p {
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  padding-top: 0;
+}
+/* four images */
+#find-perfect-gift {
+  padding: 0rem;
+  margin-inline: auto;
+  width: 100%;
+}
+#find-perfect-gift > div {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+}
+
+#find-perfect-gift img {
+  display: inline-block;
+  width: 22%;
+  margin-left: 2rem;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.21);
+  margin-bottom: 1rem;
+}
+#find-perfect-gift > div #first-im {
+  margin-left: 0rem;
+}
+
+.for-paragraph {
+  margin-bottom: 1rem;
+  text-align: left;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+}
+.for-paragraph p,
+.for-paragraph a {
+  display: inline;
+}
+.for-paragraph a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #306e63;
+  font-weight: bold;
+}
+/* big-images */
+.big-images {
+  width: 100%;
+}
+.big-images img {
+  width: 100%;
+}
+.big-images > div {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* footer */
+#footer-logo {
+  text-align: center;
+  width: 100%;
+  background-color: #222f3f;
+}
+#footer-logo img {
+  padding: 3rem;
+  width: 15%;
+  margin-left: 1rem;
+}
+footer > div {
+  background-color: #364759;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 1rem;
+}
+footer a {
+  color: white;
+}
