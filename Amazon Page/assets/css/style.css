@@ -110,6 +110,7 @@ main > div {
   border-radius: 1.5rem;
   box-shadow: 1px 1px 10px 7px rgba(0, 0, 0, 0.21);
   margin-bottom: 1rem;
+  object-fit: cover;
 }
 #find-perfect-gift > div #first-im {
   margin-left: 0rem;
@@ -138,6 +139,7 @@ main > div {
 }
 .big-images img {
   width: 100%;
+  object-fit: cover;
 }
 .big-images > div {
   text-align: center;
